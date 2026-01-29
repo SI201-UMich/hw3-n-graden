@@ -123,11 +123,10 @@ class CouponDispenser:
                     print(name + ": " + coupon_text)
             else:
                 pieces = user_input.split(",")
-                stripped_text = text.strip()
-                if stripped_text == "":
-                    return ""
-                else:
-                    return self.issue_coupon(name)
+                for x in pieces:
+                    name = x.strip()
+                    if name == "": 
+                        print(self.issue_coupon(name))
 
     def tally_distribution(self):
         """
@@ -165,7 +164,7 @@ def main():
 
     # Uncomment the lines below as you implement each function.
     box = CouponDispenser(coupon_cards)
-    # box.distribute_session()
+    box.distribute_session()
     # box.tally_distribution()
     pass
 
@@ -447,5 +446,5 @@ def test():
 
 if __name__ == "__main__":
     main()
-    # test()
+    test()
 
