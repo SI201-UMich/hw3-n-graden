@@ -2,6 +2,10 @@
 # Student ID: 0189 8219
 # Email: ngraden@umich.edu
 # Who or what you worked with on this homework (including generative AI like ChatGPT):
+# I used a little bit of Gemini to give me hints in the right direction (on the last function). However, in my prompt,
+# I explicitly said to not give any code, only hints as to what portions of my code were failing.
+# I think my use does align with my goals because I didn't have it generate any code for me.
+
 # If you worked with generative AI also add a statement for how you used it.
 # e.g.:
 # Asked ChatGPT hints for debugging and suggesting the general structure of the code
